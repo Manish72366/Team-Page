@@ -150,6 +150,7 @@ header{
     flex-direction: column;
     margin: 10px;
     transition: all 1s ease;
+    overflow: hidden;
  }
  .teams:hover{
    cursor: pointer;
@@ -158,7 +159,7 @@ header{
  .profile{
     position: absolute;
     top: 0;
-    width: 400px;
+    width: 400;
     height: 180px;
     background-color: #7d2ae8;
     border-radius: 30px;
@@ -517,4 +518,15 @@ header{
         height: 100%;
         background:#d0d0d7;
      }
+     .teams{
+        overflow: hidden;
+     }
+     /* .profile{
+        position: absolute;
+        top: 0;
+        width: 98vw;
+        height: 180px;
+        background-color: #7d2ae8;
+        border-radius: 30px;
+     } */
 }
